@@ -42,6 +42,7 @@ $color_bleu: #0085B2;
 body {
 	width: 100%;
 	background-color: $color_fond;
+	  
 	.bleu {
 			background-color: $color_vert;
 			margin: 10%;
@@ -87,8 +88,25 @@ body {
 		}
 		.cinq {
 			margin-top: 15px;
+			
 		}
+		ul {    
+			    text-align: center; 
+			    @include paragraphe();
+				margin-top: 15px;
+				list-style-type: none;
+		       li:before{
+				content: "\2022";   
+				color: $color_vert;  
+				display: inline-block;  
+				width: 1em; 
+				margin-left: -1em;
+			   }
+			}
 		.six {
+			margin-top: 15px;
+		}
+		.sept {
 			margin-top: 15px;
 		}
 
