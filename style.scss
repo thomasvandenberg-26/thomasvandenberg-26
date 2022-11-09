@@ -23,45 +23,37 @@ $color_bleu: #0085B2;
 
 @mixin titre{
 	font-family: "Hammersmith One";
-	font-size: 32px;
-	color: $color_base; 
+	font-size: 64px;
+	color: $color_vert; 
 }
 
 @mixin sous-titre{
 	font-family: "Source Code Pro";
-	font-size: 16px;
+	font-size: 40px;
     color: $color_base;
 }
 
 @mixin paragraphe{
 	font-family: "Roboto";
-	font-size : 12px; 
+	font-size : 28px; 
 	 color : $color_base;
 	 font-weight: bold;
+	
 }
 body {
 	width: 100%;
 	background-color: $color_fond;
 	  
-	.bleu {
-			background-color: $color_vert;
-			margin: 10%;
-			padding: 44px;
-			width: 50%;
-		}
-	.mesexperiences {
-		margin: 7%;
+
+	.devcav {
+		max-width: 60%;
+		margin-left: 10%;
 		border-radius: 60px;
 		background-color: $color_bleu;
-		padding: 40px;
+		padding: 10px;
 		opacity: 70%;
 		
-		// .barre {
-		// 	height: 100%;
-		// 	background-color: $color_bleu_police; 
-		// 	margin-left: 10; 
-		// }
-		
+	
 		h2 {
 			@include titre(); 
 			text-align: center;
@@ -74,7 +66,7 @@ body {
 		}
 		p {
 			@include paragraphe();
-			text-align: center;
+			
 			margin-top: 3px;
 		}
 		.deux {
@@ -91,7 +83,7 @@ body {
 			
 		}
 		ul {    
-			    text-align: center; 
+			   
 			    @include paragraphe();
 				margin-top: 15px;
 				list-style-type: none;
@@ -109,9 +101,24 @@ body {
 		.sept {
 			margin-top: 15px;
 		}
-
+	}
+	.myproject{
+		background-color: $color_bleu;
+		max-width: 20%;
+		margin-right: 20%;
+		h2{
+			@include sous-titre(); 
+		}
+		.conceptualiser{
+			@include paragraphe();
+           
+		}
+		.php{
+            @include paragraphe();
+		}
 	}
 	
+
 }
 .header {
 	 .liens {

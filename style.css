@@ -14,74 +14,89 @@ body {
   width: 100%;
   background-color: #121212;
 }
-body .bleu {
-  background-color: #A5FFC9;
-  margin: 10%;
-  padding: 44px;
-  width: 50%;
-}
-body .mesexperiences {
-  margin: 7%;
+body .devcav {
+  max-width: 60%;
+  margin-left: 10%;
   border-radius: 60px;
   background-color: #0085B2;
-  padding: 40px;
+  padding: 10px;
   opacity: 70%;
 }
-body .mesexperiences h2 {
+body .devcav h2 {
   font-family: "Hammersmith One";
-  font-size: 32px;
-  color: #EDEDED;
+  font-size: 64px;
+  color: #A5FFC9;
   text-align: center;
 }
-body .mesexperiences .Thomas {
+body .devcav .Thomas {
   font-family: "Source Code Pro";
-  font-size: 16px;
+  font-size: 40px;
   color: #EDEDED;
   text-align: right;
   margin-right: 30px;
   margin-top: 25px;
 }
-body .mesexperiences p {
+body .devcav p {
   font-family: "Roboto";
-  font-size: 12px;
+  font-size: 28px;
   color: #EDEDED;
   font-weight: bold;
-  text-align: center;
   margin-top: 3px;
 }
-body .mesexperiences .deux {
+body .devcav .deux {
   margin-top: 15px;
 }
-body .mesexperiences .trois {
+body .devcav .trois {
   margin-top: 15px;
 }
-body .mesexperiences .quatre {
+body .devcav .quatre {
   margin-top: 15px;
 }
-body .mesexperiences .cinq {
+body .devcav .cinq {
   margin-top: 15px;
 }
-body .mesexperiences ul {
-  text-align: center;
+body .devcav ul {
   font-family: "Roboto";
-  font-size: 12px;
+  font-size: 28px;
   color: #EDEDED;
   font-weight: bold;
   margin-top: 15px;
   list-style-type: none;
 }
-body .mesexperiences ul li:before {
+body .devcav ul li:before {
   content: "•";
   color: #A5FFC9;
   display: inline-block;
   width: 1em;
   margin-left: -1em;
 }
-body .mesexperiences .six {
+body .devcav .six {
   margin-top: 15px;
 }
-body .mesexperiences .sept {
+body .devcav .sept {
   margin-top: 15px;
+}
+body .myproject {
+  background-color: #0085B2;
+  max-width: 20%;
+  margin-right: 20%;
+}
+body .myproject h2 {
+  font-family: "Source Code Pro";
+  font-size: 40px;
+  color: #EDEDED;
+}
+body .myproject .conceptualiser {
+  font-family: "Roboto";
+  font-size: 28px;
+  color: #EDEDED;
+  font-weight: bold;
+}
+body .myproject .php {
+  font-family: "Roboto";
+  font-size: 28px;
+  color: #EDEDED;
+  font-weight: bold;
 }
 
 .header {
