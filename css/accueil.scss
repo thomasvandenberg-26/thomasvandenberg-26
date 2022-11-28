@@ -40,11 +40,11 @@ $color_bleu: #0085B2;
 	 font-weight: bold;
 	
 }
+
 body {
 	width: 100%;
 	background-color: $color_fond;
 			
-
 			margin-top: 1% ;
 			.Thomas {
 				@include sous-titre();
@@ -59,17 +59,16 @@ body {
 				
 					 
 					.devcav {
-						
+						position: absolute;
+						top: 15%; 
 						width: 40%;
 						border-radius: 10%;
 						background-color: $color_bleu;
 						 margin-left: 5%;
-						 margin-top: 15%;
-						height: 50%;
+						
+						height: 60%;
 						opacity: 70%;
-						position: absolute;
-						// top : 10%; 
-					
+						
 						h2 {
 
 							@include titre(); 
@@ -96,12 +95,6 @@ body {
 								margin-left: -1em;
 							}
 							}
-						.six {
-							margin-top: 15px;
-						}
-						.sept {
-							margin-top: 15px;
-						}
 						
 					}
 					.myproject{
@@ -150,6 +143,39 @@ body {
               		  }
 					
 					} 
+                 
+					.btn{
+						position: absolute;
+						font-family: Roboto, sans-serif;
+						font-weight: 0;					
+						font-size: 20px;
+						top: 80%;
+						left: 48%; 
+						color: $color_fond;
+						font-weight: bold;
+						background-color: #a5ffc9;
+						padding: 10px 30px;
+						border: solid #00000000 2px;
+						box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+						border-radius: 50px;
+						transition : 700ms;
+						transform: translateY(0);
+						display: flex;
+						flex-direction: row;
+						align-items: center;
+						cursor: pointer;
+						
+						}
+						.btn:hover{
+							transition : 1000ms;
+							padding: 10px 50px;
+							transform : translateY(-0px);
+							background-color: $color_bleu;
+							color: $color_base;
+							
+							
+							}
+							
 				}// fermeture body
 
 .header {
@@ -177,4 +203,5 @@ body {
 			text-decoration: underline;
 		}
 	
+
 }
