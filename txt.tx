@@ -1,0 +1,24 @@
+.myproject{
+						background-color: $color_bleu;
+						margin-left: 10px;
+						border-radius: 60px; 
+						padding: 10px; ;
+						opacity: 72%;
+
+						.Mission{
+							font-size: 26px; 
+						}
+						h2{
+							@include sous-titre(); 
+							text-align: left;
+						}
+						.conceptualiser{
+							@include paragraphe();
+							text-align: left;
+						
+						}
+						.php{
+							@include paragraphe();
+							text-align: left; ;
+						}
+                }
