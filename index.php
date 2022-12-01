@@ -8,21 +8,12 @@
     <title>Thomas van den berg</title>
     
 </head>
+    <header>
+        <?php include "header.html"; ?>
+    </header>
+    
     <body>
         
-        <nav>
-            <ul class="header">
-                        <li class="Apropos"><a href="#"> A propos </a></li>
-                        <li class="Monparcours"><a href="#"> Mon parcours </a></li>
-                        <li class="Mesexperiences"><a href="#"> Mes Experiences</a></li>
-                        <li class="Veille"><a href="#">Veille</a></li>
-                        <li class="Contact"><a href="#">Contact</a></li>
-                        
-            </ul>          
-        </nav>
-       <!-- <div class="bleu">
-       fdjskjfdskfhkjdfhjkds
-       </div> -->
              <h2 class="Thomas">Thomas van den Berg</h2>
              <div class="stage">
 
@@ -63,7 +54,7 @@
                         </div> 
                 </div>
                 
-                <button  type='button' class='btn' onclick="location.href='docdevcav.html';"  > Ouvrir</button>
+                <button  type='button' class='btn' onclick="location.href='docdevcav.php';"  > Ouvrir</button>
                  
                  </body>
             </body>
