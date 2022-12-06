@@ -44,16 +44,44 @@ body{
     width: 100%;
     background-color: $color_fond;
 
-    .carre{
+    .comptabilite{
         background-color: #0085B2;
         width: 50%;
-        height: 40%;
-        margin-top: 20%;
+        height: 20%;
+        margin-top: 5%;
         margin-left: 23%;
-        img{
-            border-style: solid;
-            border-color: green;
-            border-width: 5px;
+
+        
+        .compta{
+            margin: 3% 3% 5% 3%;
+             width: 70%;
+             position: absolute;
+             
         }
+        .db{
+               position: absolute;
+                margin: 3% 3% 3% 3%; 
+                width: 70%; ;
+                
+             }
+        
+    }
+    .affichageclient{
+        background-color: #A5FFC9;
+        .un{
+            position: absolute;
+            margin: 3% 3% 3% 3%; 
+            width: 70%; ;
+            
+        }
+        .deux{
+            position: absolute;
+            margin: 3% 3% 3% 3%; 
+            width: 70%; 
+            
+        }
+    }
+    .facturepdf{
+        background-color: #E10FC9;
     }
 }

@@ -4,8 +4,7 @@
 * {
   padding: 0;
   margin: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   list-style-type: none;
   text-decoration: none;
 }
@@ -14,18 +13,36 @@ body {
   width: 100%;
   background-color: #121212;
 }
-
-body .carre {
+body .comptabilite {
   background-color: #0085B2;
   width: 50%;
-  height: 40%;
-  margin-top: 20%;
+  height: 20%;
+  margin-top: 5%;
   margin-left: 23%;
 }
-
-body .carre img {
-  border-style: solid;
-  border-color: green;
-  border-width: 5px;
+body .comptabilite .compta {
+  margin: 3% 3% 5% 3%;
+  width: 70%;
+  position: absolute;
 }
-/*# sourceMappingURL=docdevcav.css.map */
+body .comptabilite .db {
+  position: absolute;
+  margin: 3% 3% 3% 3%;
+  width: 70%;
+}
+body .affichageclient {
+  background-color: #A5FFC9;
+}
+body .affichageclient .un {
+  position: absolute;
+  margin: 3% 3% 3% 3%;
+  width: 70%;
+}
+body .affichageclient .deux {
+  position: absolute;
+  margin: 3% 3% 3% 3%;
+  width: 70%;
+}
+body .facturepdf {
+  background-color: #E10FC9;
+}/*# sourceMappingURL=docdevcav.css.map */
