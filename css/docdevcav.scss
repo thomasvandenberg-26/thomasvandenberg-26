@@ -43,45 +43,48 @@ $color_bleu: #0085B2;
 body{
     width: 100%;
     background-color: $color_fond;
-
-    .comptabilite{
+  .logo {
+                margin-left: 40%;
+                width: 20%;
+                margin-top: 4%;
+            }
+    .test{
         background-color: #0085B2;
-        width: 50%;
-        height: 20%;
-        margin-top: 5%;
-        margin-left: 23%;
-
-        
+        margin-top: 3%;
+        margin-left: 10%;
+        width: 75%;
+        height: 60%;
+       p{
+        color: white;
+       }
+        // border-color:#E10FC9;
+        // border-style: solid;
+        // border-width: 10px;
+        position: absolute;
+            
+               
         .compta{
-            margin: 3% 3% 5% 3%;
-             width: 70%;
-             position: absolute;
-             
-        }
-        .db{
+            
+            margin-left: 20%;
+            margin-top: 5%;
                position: absolute;
-                margin: 3% 3% 3% 3%; 
-                width: 70%; ;
-                
+
+               .db{
+                margin-left: 5%;
+               }
+                .ajout_client{
+                width: 49.2%;
+                margin-top: 3%;
+
+               }
+               .db_client{
+                margin-left: 5%;
+                width: 20%;
+               }
              }
-        
+            }
     }
-    .affichageclient{
-        background-color: #A5FFC9;
-        .un{
-            position: absolute;
-            margin: 3% 3% 3% 3%; 
-            width: 70%; ;
-            
-        }
-        .deux{
-            position: absolute;
-            margin: 3% 3% 3% 3%; 
-            width: 70%; 
-            
-        }
-    }
-    .facturepdf{
-        background-color: #E10FC9;
-    }
-}
+
+
+
+

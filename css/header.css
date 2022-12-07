@@ -3,9 +3,11 @@
   width: 100%;
   padding: 1% 5%;
 }
+
 .header li {
   margin-left: 45%;
 }
+
 .header li a {
   float: left;
   font-size: 18px;
@@ -17,7 +19,9 @@
   margin-left: 20px;
   opacity: 100%;
 }
+
 .header a:hover {
   color: #0085B2;
   text-decoration: underline;
-}/*# sourceMappingURL=header.css.map */
+}
+/*# sourceMappingURL=header.css.map */
