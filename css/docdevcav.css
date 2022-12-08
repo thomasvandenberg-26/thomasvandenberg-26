@@ -26,7 +26,7 @@ body .test {
   margin-top: 3%;
   margin-left: 10%;
   width: 75%;
-  height: 60%;
+  height: 85%;
   position: absolute;
 }
 
@@ -50,6 +50,15 @@ body .test .compta .ajout_client {
 }
 
 body .test .compta .db_client {
+  margin-left: 5%;
+  width: 20%;
+}
+
+body .test .compta .devis {
+  margin-top: 3%;
+}
+
+body .test .compta .devispdf {
   margin-left: 5%;
   width: 20%;
 }
