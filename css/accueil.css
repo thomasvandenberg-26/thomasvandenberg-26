@@ -16,7 +16,18 @@ body {
   margin-top: 1%;
 }
 
-body .Thomas {
+body #a_propos {
+  margin-left: 15%;
+  background-color: #0085B2;
+  position: absolute;
+  margin-top: 2%;
+  margin-bottom: 5%;
+  width: 40%;
+  height: 60%;
+  opacity: 70%;
+}
+
+body #a_propos #Thomas {
   font-family: "Source Code Pro";
   font-size: 30px;
   color: #EDEDED;
@@ -30,7 +41,7 @@ body .stage {
 
 body .stage .devcav {
   position: absolute;
-  top: 15%;
+  margin-top: 10%;
   width: 40%;
   border-radius: 10%;
   background-color: #0085B2;
@@ -75,7 +86,7 @@ body .stage .devcav ul li:before {
 
 body .stage .myproject {
   position: absolute;
-  top: 15%;
+  margin-top: 10%;
   background-color: #0085B2;
   margin-left: 50%;
   margin-right: 10%;
@@ -128,7 +139,7 @@ body .btn {
   font-family: Roboto, sans-serif;
   font-weight: 0;
   font-size: 20px;
-  top: 80%;
+  margin-top: 10%;
   left: 48%;
   color: #121212;
   font-weight: bold;
