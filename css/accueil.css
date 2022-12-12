@@ -18,13 +18,14 @@ body {
 
 body #a_propos {
   margin-left: 15%;
+  margin-top: 3%;
   background-color: #0085B2;
-  position: absolute;
+  margin-left: 20%;
   margin-top: 2%;
-  margin-bottom: 5%;
-  width: 40%;
-  height: 60%;
+  width: 30%;
+  height: 50%;
   opacity: 70%;
+  border-radius: 15%;
 }
 
 body #a_propos #Thomas {
@@ -32,16 +33,17 @@ body #a_propos #Thomas {
   font-size: 30px;
   color: #EDEDED;
   text-align: center;
+  color: #A5FFC9;
   margin-bottom: 15%;
 }
 
 body .stage {
   margin-left: 5%;
+  margin-top: 15%;
 }
 
 body .stage .devcav {
   position: absolute;
-  margin-top: 10%;
   width: 40%;
   border-radius: 10%;
   background-color: #0085B2;
@@ -85,11 +87,10 @@ body .stage .devcav ul li:before {
 }
 
 body .stage .myproject {
+  width: 40%;
   position: absolute;
-  margin-top: 10%;
   background-color: #0085B2;
   margin-left: 50%;
-  margin-right: 10%;
   border-radius: 60px;
   padding: 10px;
   opacity: 72%;

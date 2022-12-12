@@ -48,33 +48,33 @@ body {
 			margin-top: 1% ;
 			#a_propos{
 				margin-left: 15%;
+				margin-top: 3%;background-color: #0085B2;
+				margin-left: 20%;
+				margin-top: 2%;
+				width: 30%;
+				height: 50%;
+				opacity: 70%;
+				border-radius: 15%;
 				#Thomas {
 				@include sous-titre();
 				text-align: center;
-		       
-			
+				color: #A5FFC9;
 				margin-bottom: 15%; 
 			}
-				background-color: #0085B2;
-				position: absolute;
-				margin-top: 2%;
-				margin-bottom: 5%;
-				width: 40%;
-				height: 60%;
-				opacity: 70%;
+			    #bio{
+					
+				}
+				#
 				
-				
-
 			}
 			
 
 			.stage{ 
 				     margin-left: 5%;
-				
+				     margin-top: 15%;
 					 
 					.devcav {
 						position: absolute;
-					    margin-top: 10%;
 						width: 40%;
 						border-radius: 10%;
 						background-color: $color_bleu;
@@ -111,15 +111,13 @@ body {
 							}
 						
 					}
-					.myproject{
+					.myproject{ 
+						width: 40%;
 						position: absolute;
-						margin-top: 10%;
 						background-color: $color_bleu;
 						margin-left: 50%;
-						margin-right: 10%;
-						
 						border-radius: 60px; 
-						padding: 10px; ;
+						padding: 10px; 
 						opacity: 72%;
                         
 						h1{
