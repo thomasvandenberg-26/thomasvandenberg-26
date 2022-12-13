@@ -55,23 +55,35 @@ body {
 				height: 50%;
 				opacity: 70%;
 				border-radius: 15%;
-				#Thomas {
-				@include sous-titre();
-				text-align: center;
-				color: #A5FFC9;
-				margin-bottom: 15%; 
-			}
-			    #bio{
-					
-				}
-				#
 				
+				 h2{
+					text-align: center;
+					@include sous-titre();
+					color: #A5FFC9;
+					margin-bottom: 15%; 
+				 }
+				 #bio{
+					p{
+						color: $color_base;
+						font-weight: bold;
+						font-size: 18px;
+						text-align: center;
+					}
+					#qualites{
+						margin-top: 30%;
+					}
+				}
 			}
-			
-
+			#langages{
+				margin-top: 3%;
+				height: 50%;
+				background-color: #0085B2;
+				position: absolute;
+			}
+			   
 			.stage{ 
 				     margin-left: 5%;
-				     margin-top: 15%;
+				     margin-top: 8%;
 					 
 					.devcav {
 						position: absolute;
@@ -188,8 +200,8 @@ body {
 							
 							}
 							
-				}// fermeture body
+						}// fermeture body
 
-
+			
 	
 
