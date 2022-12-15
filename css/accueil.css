@@ -34,6 +34,14 @@ body #a_propos h2 {
   color: #A5FFC9;
   margin-bottom: 15%;
 }
+body #a_propos #bio #logo {
+  margin-left: 10%;
+}
+body #a_propos #bio img {
+  width: 10%;
+  margin-left: 40%;
+  margin-top: 3%;
+}
 body #a_propos #bio p {
   color: #EDEDED;
   font-weight: bold;
@@ -41,13 +49,15 @@ body #a_propos #bio p {
   text-align: center;
 }
 body #a_propos #bio #qualites {
-  margin-top: 30%;
+  margin-top: 10%;
 }
-body #langages {
-  margin-top: 3%;
-  height: 50%;
-  background-color: #0085B2;
+body #a_propos #langages {
   position: absolute;
+  width: 40%;
+  margin-left: 100%;
+  margin-top: 3%;
+  height: 30%;
+  background-color: #0085B2;
 }
 body .stage {
   margin-left: 5%;
