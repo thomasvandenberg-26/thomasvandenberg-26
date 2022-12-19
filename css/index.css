@@ -1,11 +1,11 @@
-@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 * {
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   list-style-type: none;
   text-decoration: none;
 }
@@ -15,6 +15,7 @@ body {
   background-color: #121212;
   margin-top: 1%;
 }
+
 body #a_propos {
   margin-left: 15%;
   margin-top: 3%;
@@ -26,6 +27,7 @@ body #a_propos {
   opacity: 70%;
   border-radius: 15%;
 }
+
 body #a_propos h2 {
   text-align: center;
   font-family: "Source Code Pro";
@@ -34,23 +36,28 @@ body #a_propos h2 {
   color: #A5FFC9;
   margin-bottom: 15%;
 }
+
 body #a_propos #bio #logo {
   margin-left: 10%;
 }
+
 body #a_propos #bio img {
   width: 10%;
   margin-left: 40%;
   margin-top: 3%;
 }
+
 body #a_propos #bio p {
   color: #EDEDED;
   font-weight: bold;
   font-size: 18px;
   text-align: center;
 }
+
 body #a_propos #bio #qualites {
   margin-top: 10%;
 }
+
 body #a_propos #langages {
   position: absolute;
   width: 40%;
@@ -59,11 +66,13 @@ body #a_propos #langages {
   height: 30%;
   background-color: #0085B2;
 }
+
 body .stage {
   margin-left: 5%;
   margin-top: 8%;
 }
-body .stage .devcav {
+
+body .stage .Louty {
   position: absolute;
   width: 40%;
   border-radius: 10%;
@@ -72,14 +81,16 @@ body .stage .devcav {
   height: 60%;
   opacity: 70%;
 }
-body .stage .devcav h2 {
+
+body .stage .Louty h2 {
   font-family: "Hammersmith One";
   font-size: 64px;
   color: #A5FFC9;
   margin-top: 3%;
   text-align: center;
 }
-body .stage .devcav p {
+
+body .stage .Louty p {
   font-family: "Roboto";
   font-size: 28px;
   color: #EDEDED;
@@ -87,7 +98,8 @@ body .stage .devcav p {
   margin-top: 2%;
   margin-left: 4%;
 }
-body .stage .devcav ul {
+
+body .stage .Louty ul {
   font-family: "Roboto";
   font-size: 28px;
   color: #EDEDED;
@@ -95,14 +107,16 @@ body .stage .devcav ul {
   margin-top: 15px;
   list-style-type: none;
 }
-body .stage .devcav ul li:before {
-  content: "•";
+
+body .stage .Louty ul li:before {
+  content: "\2022";
   color: #A5FFC9;
   display: inline-block;
   width: 1em;
   margin-left: -1em;
 }
-body .stage .myproject {
+
+body .stage .myprojectLouty {
   width: 40%;
   position: absolute;
   background-color: #0085B2;
@@ -111,38 +125,85 @@ body .stage .myproject {
   padding: 10px;
   opacity: 72%;
 }
-body .stage .myproject h1 {
+
+body .stage .myprojectLouty h1 {
   margin-top: 3%;
 }
-body .stage .myproject .Mission {
+
+body .stage .myprojectLouty .Mission {
   margin-left: 3%;
   margin-top: 3%;
   margin-bottom: 3%;
   font-size: 26px;
 }
-body .stage .myproject .Mission h2 {
+
+body .stage .myprojectLouty .Mission h2 {
   font-family: "Source Code Pro";
   font-size: 30px;
   color: #EDEDED;
   text-align: left;
 }
-body .stage .myproject .Mission ul {
+
+body .stage .myprojectLouty .Mission ul {
   margin: 3%;
 }
-body .stage .myproject .Mission ul li {
+
+body .stage .myprojectLouty .Mission ul li {
   margin-top: 1%;
 }
-body .stage .myproject .Mission .competences {
+
+body .stage .myprojectLouty .Mission .competences {
   font-family: "Roboto";
   font-size: 28px;
   color: #EDEDED;
   font-weight: bold;
   margin-top: 3%;
 }
-body .stage .myproject .Mission .competences p {
+
+body .stage .myprojectLouty .Mission .competences p {
   margin-top: 3%;
   margin-bottom: 3%;
 }
+
+body #GPA {
+  position: absolute;
+  width: 40%;
+  border-radius: 10%;
+  background-color: #0085B2;
+  margin-top: 40%;
+  margin-left: 10%;
+  height: 60%;
+  opacity: 70%;
+}
+
+body #GPA h2 {
+  font-family: "Hammersmith One";
+  font-size: 64px;
+  color: #A5FFC9;
+  margin-top: 3%;
+  text-align: center;
+}
+
+body #myprojectGPA {
+  margin-top: 40%;
+  margin-left: 55%;
+  width: 40%;
+  height: 60%;
+  position: absolute;
+  background-color: #0085B2;
+  border-radius: 60px;
+  padding: 10px;
+  opacity: 72%;
+}
+
+body #myprojectGPA h2 {
+  font-family: "Hammersmith One";
+  font-size: 64px;
+  color: #A5FFC9;
+  margin-top: 3%;
+  text-align: center;
+}
+
 body .btn {
   position: absolute;
   font-family: Roboto, sans-serif;
@@ -154,20 +215,34 @@ body .btn {
   font-weight: bold;
   background-color: #a5ffc9;
   padding: 10px 30px;
-  border: solid rgba(0, 0, 0, 0) 2px;
-  box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+  border: solid #00000000 2px;
+  -webkit-box-shadow: black 0px 0px 0px 0px;
+          box-shadow: black 0px 0px 0px 0px;
   border-radius: 50px;
+  -webkit-transition: 700ms;
   transition: 700ms;
-  transform: translateY(0);
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
-  align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   cursor: pointer;
 }
+
 body .btn:hover {
+  -webkit-transition: 1000ms;
   transition: 1000ms;
   padding: 10px 50px;
-  transform: translateY(0px);
+  -webkit-transform: translateY(0px);
+          transform: translateY(0px);
   background-color: #0085B2;
   color: #EDEDED;
-}/*# sourceMappingURL=accueil.css.map */
+}
+/*# sourceMappingURL=index.css.map */

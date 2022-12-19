@@ -98,7 +98,7 @@ body {
 				     margin-left: 5%;
 				     margin-top: 8%;
 					 
-					.devcav {
+					.Louty {
 						position: absolute;
 						width: 40%;
 						border-radius: 10%;
@@ -134,9 +134,10 @@ body {
 								margin-left: -1em;
 							}
 							}
+							
 						
 					}
-					.myproject{ 
+					.myprojectLouty{ 
 						width: 40%;
 						position: absolute;
 						background-color: $color_bleu;
@@ -178,9 +179,43 @@ body {
 						
 						
               		  }
+						
 					
 					} 
-                 
+                 #GPA{
+							position: absolute;
+							width: 40%;
+							border-radius: 10%;
+							background-color: $color_bleu;
+							margin-top: 40%;
+							margin-left: 10%;
+							height: 60%;
+							opacity: 70%;
+							h2{
+							@include titre(); 
+							margin-top: 3%;
+							text-align: center;
+
+							
+							}
+						}
+							#myprojectGPA{
+								margin-top:  40%;
+								margin-left: 55%;
+								width: 40%;
+								height: 60%;
+								position: absolute;
+								background-color: $color_bleu;
+								
+								border-radius: 60px; 
+								padding: 10px; 
+								opacity: 72%;
+								h2{
+									@include titre(); 
+									margin-top: 3%;
+									text-align: center;
+									}
+							}
 					.btn{
 						position: absolute;
 						font-family: Roboto, sans-serif;
@@ -213,6 +248,9 @@ body {
 							
 							}
 							
+
+					
+					
 						}// fermeture body
 
 			
